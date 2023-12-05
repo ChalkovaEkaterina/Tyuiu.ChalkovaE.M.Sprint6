@@ -52,6 +52,7 @@ namespace Tyuiu.ChalkovaE.M.Sprint6.Task3.V21
             int[,] result = ds.Calculate(mtrx);
             int rows = mtrx.GetUpperBound(0) + 1;
             int columns = mtrx.GetUpperBound(1) + 1;
+            
             dataGridViewMatrix_CEM.RowCount = rows;
             dataGridViewMatrix_CEM.ColumnCount = columns;
 
@@ -60,6 +61,7 @@ namespace Tyuiu.ChalkovaE.M.Sprint6.Task3.V21
                 dataGridViewMatrix_CEM.Columns[i].Width = 25;
             }
 
+            
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)

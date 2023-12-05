@@ -14,7 +14,11 @@ namespace Tyuiu.ChalkovaE.M.Sprint6.Task3.V21.Lib
         {
             int rows = matrix.GetUpperBound(0) + 1;
             int columns = matrix.GetUpperBound(1) + 1;
+            
+            
             List<int> n = new List<int>();
+
+
             int count = 0;
             for (int i = 0; i < rows; i++)
             {
@@ -22,6 +26,7 @@ namespace Tyuiu.ChalkovaE.M.Sprint6.Task3.V21.Lib
                 n.Sort((x, y) => x.CompareTo(y));
 
             }
+            
             for (int i = 0; i < rows; i++)
             {
                 matrix[i, 0] = n[count];
