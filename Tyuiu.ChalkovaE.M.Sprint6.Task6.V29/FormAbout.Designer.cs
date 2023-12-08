@@ -50,7 +50,7 @@ namespace Tyuiu.ChalkovaE.M.Sprint6.Task6.V29
             // labelInfo_CEM
             // 
             this.labelInfo_CEM.AutoSize = true;
-            this.labelInfo_CEM.Location = new System.Drawing.Point(294, 12);
+            this.labelInfo_CEM.Location = new System.Drawing.Point(290, 12);
             this.labelInfo_CEM.Name = "labelInfo_CEM";
             this.labelInfo_CEM.Size = new System.Drawing.Size(551, 250);
             this.labelInfo_CEM.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace Tyuiu.ChalkovaE.M.Sprint6.Task6.V29
             // 
             this.buttonOK_CEM.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonOK_CEM.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonOK_CEM.Location = new System.Drawing.Point(696, 299);
+            this.buttonOK_CEM.Location = new System.Drawing.Point(699, 305);
             this.buttonOK_CEM.Name = "buttonOK_CEM";
             this.buttonOK_CEM.Size = new System.Drawing.Size(123, 40);
             this.buttonOK_CEM.TabIndex = 2;
